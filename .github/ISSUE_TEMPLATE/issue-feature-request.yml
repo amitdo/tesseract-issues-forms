@@ -3,4 +3,4 @@ description: File a feature request
 body:
   - type: textarea
     attributes:
-      label: Your feature request
+      label: Your Feature Request
