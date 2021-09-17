@@ -1,0 +1,6 @@
+name: Feature Request
+description: File a feature request
+body:
+  - type: textarea
+    attributes:
+      label: Your feature request
