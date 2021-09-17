@@ -28,8 +28,8 @@ body:
     attributes:
       label: macOS
       options:
-        - label: macOS 10.15 Catalina
         - label: macOS 11 Big Sur
+        - label: macOS 10.15 Catalina
   - type: dropdown
     id: os-linux
     attributes:
