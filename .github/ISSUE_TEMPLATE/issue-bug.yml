@@ -47,8 +47,8 @@ body:
         - Ubuntu 20.04 Focal
         - Debian Testing Bookwarm
         - Debian 11 Bullseye
-        - RHEL 9 or RHEL 8 clone (Rocky Linux or AlmaLinux)
-        - RHEL 8 or RHEL 8 clone (Rocky Linux or AlmaLinux)
+        - RHEL 9 or RHEL 8 clone
+        - RHEL 8 or RHEL 8 clone
   - type: textarea
     attributes:
       label: Other Operating System
