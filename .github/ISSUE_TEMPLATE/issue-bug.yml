@@ -56,7 +56,7 @@ body:
   - type: textarea
     attributes:
       label: Compiler
-      placeholder: "Enter compiler name and version (Examples: MSVC 2019 16.11, Clang 13, GCC 11.1, xcode 12.5.1)" 
+      placeholder: "Enter compiler name and version (Examples: MSVC 2019 16.11, Clang 13.0.1, GCC 11.2, Xcode 14.1)" 
   - type: textarea
     attributes:
       label: Virtualization / Containers
