@@ -9,8 +9,6 @@ body:
         
         **Have a question? Need help?**
         Please use [our forum](https://groups.google.com/g/tesseract-ocr).
-        
-        -----
   - type: textarea
     attributes:
       label: Basic Information
