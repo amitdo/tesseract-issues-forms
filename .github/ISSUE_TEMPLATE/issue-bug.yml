@@ -4,7 +4,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        ### Prolog
+        ### Attention
         Before you submit an issue, please review [the guidelines for this repository](https://github.com/tesseract-ocr/tesseract/blob/main/CONTRIBUTING.md).
         
         **Have a question? Need help?**
@@ -47,7 +47,7 @@ body:
         - Ubuntu 20.04 Focal
         - Debian Testing Bookwarm
         - Debian 11 Bullseye
-        - RHEL 9 or RHEL 8 clone: Rocky Linux / AlmaLinux
+        - RHEL 9 or RHEL 8 clone\: Rocky Linux / AlmaLinux
         - RHEL 8 or RHEL 8 clone: Rocky Linux / AlmaLinux
   - type: textarea
     attributes:
