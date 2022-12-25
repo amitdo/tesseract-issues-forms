@@ -10,7 +10,7 @@ body:
         Have a question? Need help?
         Please use [our forum](https://groups.google.com/g/tesseract-ocr).
         
-        Don't open an issues for [versions that were released more than a year ago](https://tesseract-ocr.github.io/tessdoc/ReleaseNotes.html).
+        Don't open an issue for [Tesseract version which were released more than a year ago](https://tesseract-ocr.github.io/tessdoc/ReleaseNotes.html).
   - type: textarea
     attributes:
       label: Basic Information
