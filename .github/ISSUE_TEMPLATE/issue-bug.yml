@@ -18,7 +18,7 @@ body:
     attributes:
       value: |
         ### Operating System
-        Choose the OS where the bug occurs.      
+        Choose the OS where the bug occurs      
   - type: checkboxes
     id: os-windows
     attributes:
@@ -53,6 +53,11 @@ body:
       placeholder: Enter the name and version of the OS
   - type: textarea
     attributes:
+      label: uname -a
+      placeholder: "Paste the output of the command: umame -a (if available in your system)."
+
+  - type: textarea
+    attributes:
       label: Compiler
       placeholder: "Enter compiler name and version (Examples: MSVC 2019 16.11, Clang 13.0.1, GCC 11.2, Xcode 14.1)" 
   - type: textarea
@@ -63,10 +68,6 @@ body:
     attributes:
       label: CPU
       placeholder: "Enter your CPU vendor name and model (Examples: Intel Core i7-11700K, AMD Ryzen 7 5800X, Apple Silicon M1)"
-  - type: textarea
-    attributes:
-      label: uname -a
-      placeholder: "Paste the output of the command: umame -a (if available in your system)."
   - type: textarea
     attributes:
       label: Current Behavior
