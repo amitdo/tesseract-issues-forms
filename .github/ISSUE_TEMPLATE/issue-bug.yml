@@ -16,7 +16,13 @@ body:
       label: Basic Information
       description: Version info, compiled libraries, SIMD, OpenMP
       placeholder: "Paste the output of the command: tesseract -v"
-  - type: checkboxes
+
+  - type: markdown
+    attributes:
+      value: |
+        ### Operating System
+        Choose the OS where the bug occurs.      
+- type: checkboxes
     id: os-windows
     attributes:
       label: Windows
@@ -28,8 +34,9 @@ body:
     attributes:
       label: macOS
       options:
+        - label: macOS 13 Ventura
+        - label: macOS 12 Monterey
         - label: macOS 11 Big Sur
-        - label: macOS 10.15 Catalina
   - type: dropdown
     id: os-linux
     attributes:
@@ -37,15 +44,12 @@ body:
       description: Popular Linux distros with a long time support (LTS)
       multiple: true
       options:
-        - Ubuntu 20.04 Focal Fossa
-        - Ubuntu 18.04 Bionic Beaver
+        - Ubuntu 22.04 Jammy
+        - Ubuntu 20.04 Focal
+        - Debian Testing Bookwarm
         - Debian 11 Bullseye
-        - Debian 10 Buster
-        - RHEL 8
-        - RHEL 8 clone - Rocky Linux 8 
-        - RHEL 8 clone -  AlmaLinux 8
-        - RHEL 7
-        - CentOS 7
+        - RHEL 9 or RHEL 8 clone: Rocky Linux / AlmaLinux
+        - RHEL 8 or RHEL 8 clone: Rocky Linux / AlmaLinux
   - type: textarea
     attributes:
       label: Other Operating System
