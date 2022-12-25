@@ -7,9 +7,9 @@ body:
         ### Attention
         Before you submit an issue, please review [the guidelines for this repository](https://github.com/tesseract-ocr/tesseract/blob/main/CONTRIBUTING.md).
         
-        Don't ppen an issues for versions that were released more than a year ago.
+        Don't open an issues for versions that were released more than a year ago.
          
-        Have a question? Need help?**
+        Have a question? Need help?
         Please use [our forum](https://groups.google.com/g/tesseract-ocr).
   - type: textarea
     attributes:
