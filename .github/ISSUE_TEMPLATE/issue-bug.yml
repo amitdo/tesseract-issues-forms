@@ -6,11 +6,11 @@ body:
       value: |
         ### Attention
         Before you submit an issue, please review [the guidelines for this repository](https://github.com/tesseract-ocr/tesseract/blob/main/CONTRIBUTING.md).
-        
-        Don't open an issues for versions that were released more than a year ago.
-         
+                 
         Have a question? Need help?
         Please use [our forum](https://groups.google.com/g/tesseract-ocr).
+        
+        Don't open an issues for [versions that were released more than a year ago](https://tesseract-ocr.github.io/tessdoc/ReleaseNotes.html).
   - type: textarea
     attributes:
       label: Basic Information
