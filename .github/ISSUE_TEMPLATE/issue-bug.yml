@@ -60,7 +60,7 @@ body:
   - type: textarea
     attributes:
       label: Virtualization / Containers
-      placeholder: "Enter the name and version of the VM / container which you use (Examples: Oracle VM VirtualBox 6.1.26,VMware Workstation 16.1.2, Hyper-V, Docker 20.10.7)"
+      placeholder: "Enter the name and version of the VM / container which you use (Examples: Oracle VM VirtualBox 7.0.4,VMware Workstation 17.0, Hyper-V, Docker 20.10.22)"
   - type: textarea
     attributes:
       label: CPU
