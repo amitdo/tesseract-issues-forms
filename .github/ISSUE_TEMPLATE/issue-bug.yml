@@ -16,13 +16,12 @@ body:
       label: Basic Information
       description: Version info, compiled libraries, SIMD, OpenMP
       placeholder: "Paste the output of the command: tesseract -v"
-
   - type: markdown
     attributes:
       value: |
         ### Operating System
         Choose the OS where the bug occurs.      
-- type: checkboxes
+  - type: checkboxes
     id: os-windows
     attributes:
       label: Windows
